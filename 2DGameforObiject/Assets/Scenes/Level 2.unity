@@ -1117,8 +1117,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1355547987
-  m_SortingLayer: -1
+  m_SortingLayerID: -662665185
+  m_SortingLayer: -4
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -22140,8 +22140,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1355547987
-  m_SortingLayer: -1
+  m_SortingLayerID: -662665185
+  m_SortingLayer: -4
   m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -22596,7 +22596,7 @@ GameObject:
   - component: {fileID: 1871588827}
   m_Layer: 0
   m_Name: Spikes
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22778,7 +22778,7 @@ GameObject:
   - component: {fileID: 2018950868}
   m_Layer: 0
   m_Name: Collectibles
-  m_TagString: Untagged
+  m_TagString: Cherry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22877,8 +22877,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1228439093
-  m_SortingLayer: 1
+  m_SortingLayerID: -1037057053
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -25366,11 +25366,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 811788495362682510, guid: 86291809f6f054947a63e68f7dbb39b6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.62
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 811788495362682510, guid: 86291809f6f054947a63e68f7dbb39b6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.51
+      value: -1.32
       objectReference: {fileID: 0}
     - target: {fileID: 811788495362682510, guid: 86291809f6f054947a63e68f7dbb39b6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25408,10 +25408,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5618699501111295057, guid: 86291809f6f054947a63e68f7dbb39b6, type: 3}
+      propertyPath: jumpableGround.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 6453391117796252240, guid: 86291809f6f054947a63e68f7dbb39b6, type: 3}
       propertyPath: cherriesText
       value: 
       objectReference: {fileID: 1348040480}
+    - target: {fileID: 6973202075206405036, guid: 86291809f6f054947a63e68f7dbb39b6, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973202075206405036, guid: 86291809f6f054947a63e68f7dbb39b6, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973202075206405036, guid: 86291809f6f054947a63e68f7dbb39b6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1622409967, guid: c5fb414e38e164b4fb36382877a2fe7a, type: 3}
+    - target: {fileID: 6973202075206405036, guid: 86291809f6f054947a63e68f7dbb39b6, type: 3}
+      propertyPath: m_SortingLayer
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973202075206405036, guid: 86291809f6f054947a63e68f7dbb39b6, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 272002739
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973202075206405036, guid: 86291809f6f054947a63e68f7dbb39b6, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

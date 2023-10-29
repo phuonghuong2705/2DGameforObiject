@@ -298,7 +298,7 @@ MonoBehaviour:
   jumpForce: 14
   jumpableGround:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   jumpSound: {fileID: 4992633707500734048}
 --- !u!114 &6453391117796252240
 MonoBehaviour:
