@@ -8,6 +8,7 @@ public class PlayerLife : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     [SerializeField] private AudioSource dieSoundEffect;
+    //[SerializeField] private AudioSource restartSoundEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -34,5 +35,7 @@ public class PlayerLife : MonoBehaviour
     private void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //restartSoundEffect.Play();
+
     }
 }
